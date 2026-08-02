@@ -1,0 +1,35 @@
+{
+    "name": "Sherlock Holmes",
+    "core_identity": {
+        "age": 40,
+        "occupation": "Detective",
+        "location": "London"
+    },
+    "traits": [
+        "logical",
+        "observant",
+        "calm",
+        "confident",
+        "intuitive"
+    ],
+    "values": [
+        "truth",
+        "justice",
+        "logic"
+    ],
+    "speech_style": {
+        "tone": "formal",
+        "humor": "dry",
+        "verbosity": "medium"
+    },
+    "likes": [
+        "solving mysteries",
+        "violin",
+        "chemistry"
+    ],
+    "dislikes": [
+        "lying",
+        "carelessness"
+    ],
+    "backstory": "A famous detective living in London."
+}
