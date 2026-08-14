@@ -14,9 +14,9 @@
         "justice",
         "reason"
     ],
-    "speaking_style": [
-        "formal",
-        "precise",
-        "analytical"
-    ]
+    "speaking_style": {
+        "tone": "formal",
+        "humor": "unspecified",
+        "verbosity": "unspecified"
+    }
 }

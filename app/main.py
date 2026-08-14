@@ -11,9 +11,7 @@ persona = load_persona("personas/sherlock.json")
 system_prompt = build_persona_prompt(persona)
 
 
-question = input("Ask Sherlock: ")
-
-answer = ask_llm(system_prompt, question)
-
-print("\nSherlock:")
-print(answer)
+for item in questions:
+    question = item["question"]
+    answer = ask_llm(system_prompt, question)
+    print(answer)

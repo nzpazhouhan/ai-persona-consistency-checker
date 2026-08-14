@@ -1,7 +1,22 @@
 [
-    "What do you think about friendship?",
-    "How do you solve difficult problems?",
-    "Would you ever lie to achieve your goals?",
-    "What is your biggest fear?",
-    "What makes someone a good leader?"
+    {
+        "question": "What do you think about friendship?",
+        "target": "values"
+    },
+    {
+        "question": "How do you solve difficult problems?",
+        "target": "traits"
+    },
+    {
+        "question": "Would you ever lie to achieve your goals?",
+        "target": "values"
+    },
+    {
+        "question": "What is your biggest fear?",
+        "target": "dislikes"
+    },
+    {
+        "question": "What makes someone a good leader?",
+        "target": "values"
+    }
 ]

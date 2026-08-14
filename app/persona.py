@@ -6,19 +6,19 @@ class Persona:
 
         self.name = data["name"]
 
-        self.identity = data["core_identity"]
+        self.identity = data["description"]
 
         self.traits = data["traits"]
 
         self.values = data["values"]
 
-        self.speech_style = data["speech_style"]
+        self.speech_style = data["speaking_style"]
 
-        self.likes = data["likes"]
+        self.likes = data.get("likes", [])
 
-        self.dislikes = data["dislikes"]
+        self.dislikes = data.get("dislikes", [])
 
-        self.backstory = data["backstory"]
+        self.backstory = data.get("backstory", "")
 
 
 def load_persona(path):

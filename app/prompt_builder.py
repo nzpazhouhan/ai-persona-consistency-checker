@@ -13,10 +13,7 @@ Core values:
 {', '.join(persona.values)}
 
 Speaking style:
-Tone: {persona.speech_style["tone"]}
-Humor: {persona.speech_style["humor"]}
-Verbosity: {persona.speech_style["verbosity"]}
-
+{', '.join(persona.speech_style)}
 Likes:
 {', '.join(persona.likes)}
 
