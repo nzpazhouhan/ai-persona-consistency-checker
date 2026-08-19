@@ -15,12 +15,19 @@ samples = []
 for item in questions:
     question = item["question"]
     target = item["target"]
+
+    reference = getattr(persona, target)
+
     answer = ask_llm(system_prompt, question)
+
     sample = {
         "question": question,
         "target": target,
         "answer": answer
     }
+
     samples.append(sample)
 
-    print(answer)
+    print("Target:", target)
+    print("Reference:", reference)
+    print("Answer:", answer)
