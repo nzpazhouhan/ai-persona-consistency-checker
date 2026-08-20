@@ -129,17 +129,49 @@ A question that requires little deduction, my dear fellow...
 
 ---
 
-## Roadmap
+## Project Roadmap
+
+### Core Persona System
 
 - [x] Persona data structure
+- [x] Persona Object
 - [x] Persona loading system
 - [x] Prompt generation
 - [x] Local LLM integration with Ollama
+- [x] Persona-based response generation
+
+### Question & Evaluation Pipeline
+
+- [x] Question Dataset
+- [x] Question target classification
+- [x] Dynamic Target → Persona Reference mapping
+- [x] Sample collection pipeline
 - [ ] Persona consistency evaluation
-- [ ] NLP-based trait extraction
 - [ ] Semantic similarity analysis
 - [ ] Consistency scoring system
+
+### NLP & Semantic Analysis
+
+- [ ] Text embedding generation
+- [ ] Vector representation of persona attributes
+- [ ] Answer embedding generation
+- [ ] Cosine similarity calculation
+- [ ] NLP-based trait/value extraction
+- [ ] Semantic alignment detection
+
+### Conversation System
+
 - [ ] Memory and conversation history
+- [ ] Multi-turn conversation support
+- [ ] Context-aware responses
+
+### Future Improvements
+
+- [ ] Multiple persona support
+- [ ] Evaluation result reporting
+- [ ] Per-question consistency scores
+- [ ] Overall persona consistency score
+- [ ] Configurable evaluation thresholds
 
 ---
 
