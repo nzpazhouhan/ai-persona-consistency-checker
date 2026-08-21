@@ -6,6 +6,9 @@ model = SentenceTransformer("all-MiniLM-L6-v2")
 
 def evaluate(reference, answer):
 
+    if not reference:
+        return None
+
     reference_text = ", ".join(reference)
 
     reference_embedding = model.encode(reference_text)
