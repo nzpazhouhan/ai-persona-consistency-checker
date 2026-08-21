@@ -1,7 +1,12 @@
 [
     {
-        "question": "What do you think about friendship?",
-        "target": "values"
+        "question": "...",
+        "target": "values",
+        "focus": [
+            "truth",
+            "justice"
+        ],
+        "type": "moral_dilemma"
     },
     {
         "question": "How do you solve difficult problems?",
