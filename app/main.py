@@ -1,40 +1,54 @@
-import json
 from persona import load_persona
 from prompt_builder import build_persona_prompt
 from llm import ask_llm
-from evaluator import evaluate
 
-with open("questions.json", "r", encoding="utf-8") as file:
-    questions = json.load(file)
 
-persona = load_persona("personas/sherlock.json")
+personas = {
+    "1": "personas/sherlock.json",
+    "2": "personas/batman.json",
+    "3": "personas/harry_potter.json",
+    "4": "personas/joker.json",
+    "5": "personas/tony_stark.json"
+}
 
-system_prompt = build_persona_prompt(persona)
 
-samples = []
+while True:
 
-for item in questions:
+    print("\nChoose a character:\n")
 
-    question = item["question"]
+    print("1. Sherlock Holmes")
+    print("2. Batman")
+    print("3. Harry Potter")
+    print("4. Joker")
+    print("5. Tony Stark")
+    print("q. Exit")
 
-    target = item["target"]
+    choice = input("\nEnter your choice: ").lower()
 
-    reference = getattr(persona, target)
+    if choice == "q":
+        print("\nGoodbye!")
+        break
 
-    answer = ask_llm(system_prompt, question)
+    elif choice in personas:
 
-    score = evaluate(reference, answer)
+        persona = load_persona(personas[choice])
 
-    sample = {
-        "question": question,
-        "target": target,
-        "answer": answer,
-        "score": score
-    }
+        system_prompt = build_persona_prompt(persona)
 
-    samples.append(sample)
+        print(f"\nConnected to {persona.name}!")
+        print("Type 'q' to return to the menu.\n")
 
-    print(f"\nTarget: {target}")
-    print(f"Reference: {reference}")
-    print(f"Score: {score}")
-    print(f"Answer: {answer}")
+        while True:
+
+            question = input("You: ")
+
+            if question.lower() == "q":
+                print(f"\nDisconnected from {persona.name}.")
+                break
+
+            answer = ask_llm(system_prompt, question)
+
+            print(f"\n{persona.name}: {answer}\n")
+
+    else:
+        print("\nInvalid choice. Please try again.")
