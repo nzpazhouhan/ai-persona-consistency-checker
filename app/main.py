@@ -1,6 +1,7 @@
 from persona import load_persona
 from prompt_builder import build_persona_prompt
 from llm import ask_llm
+from evaluate_persona import evaluate_persona
 
 
 personas = {
@@ -23,7 +24,7 @@ while True:
     print("5. Tony Stark")
     print("q. Exit")
 
-    choice = input("\nEnter your choice: ").lower()
+    choice = input("\nEnter your choice: ").strip().lower()
 
     if choice == "q":
         print("\nGoodbye!")
@@ -36,17 +37,32 @@ while True:
         system_prompt = build_persona_prompt(persona)
 
         print(f"\nConnected to {persona.name}!")
-        print("Type 'q' to return to the menu.\n")
+        print(f"""
+        You are now talking with {persona.name}.
+
+        Available commands:
+        - Type your question and get response from the character
+        - Type /evaluate → evaluate this persona consistency
+        - Type q         → return to character menu
+
+        Start chatting:
+        """)
 
         while True:
 
-            question = input("You: ")
+            user_input = input("You: ").strip()
 
-            if question.lower() == "q":
+            command = user_input.lower()
+
+            if command == "q":
                 print(f"\nDisconnected from {persona.name}.")
                 break
 
-            answer = ask_llm(system_prompt, question)
+            if command == "/evaluate":
+                evaluate_persona(persona)
+                continue
+
+            answer = ask_llm(system_prompt, user_input)
 
             print(f"\n{persona.name}: {answer}\n")
 

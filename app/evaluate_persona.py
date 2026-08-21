@@ -1,40 +1,43 @@
 import json
-from persona import load_persona
 from prompt_builder import build_persona_prompt
 from llm import ask_llm
 from evaluator import evaluate
 
-with open("questions.json", "r", encoding="utf-8") as file:
-    questions = json.load(file)
 
-persona = load_persona("personas/sherlock.json")
+def evaluate_persona(persona):
 
-system_prompt = build_persona_prompt(persona)
+    with open("questions.json", "r", encoding="utf-8") as file:
+        questions = json.load(file)
 
-samples = []
+    system_prompt = build_persona_prompt(persona)
 
-for item in questions:
+    samples = []
 
-    question = item["question"]
+    print(f"\nRunning evaluation for {persona.name}...\n")
 
-    target = item["target"]
+    for item in questions:
 
-    reference = getattr(persona, target)
+        question = item["question"]
 
-    answer = ask_llm(system_prompt, question)
+        target = item["target"]
 
-    score = evaluate(reference, answer)
+        reference = getattr(persona, target)
 
-    sample = {
-        "question": question,
-        "target": target,
-        "answer": answer,
-        "score": score
-    }
+        answer = ask_llm(system_prompt, question)
 
-    samples.append(sample)
+        score = evaluate(reference, answer)
 
-    print(f"\nTarget: {target}")
-    print(f"Reference: {reference}")
-    print(f"Score: {score}")
-    print(f"Answer: {answer}")
+        sample = {
+            "question": question,
+            "target": target,
+            "answer": answer,
+            "score": score
+        }
+
+        samples.append(sample)
+
+        print(f"Target: {target}")
+        print(f"Score: {score:.2f}")
+        print("-" * 50)
+
+    return samples
