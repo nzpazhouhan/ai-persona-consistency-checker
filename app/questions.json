@@ -1,27 +1,53 @@
 [
     {
-        "question": "...",
+        "question": "Would you ever lie to achieve an important goal?",
         "target": "values",
         "focus": [
             "truth",
-            "justice"
+            "justice",
+            "intellectual honesty"
         ],
         "type": "moral_dilemma"
     },
     {
         "question": "How do you solve difficult problems?",
-        "target": "traits"
+        "target": "traits",
+        "focus": [
+            "logical",
+            "observant",
+            "analytical",
+            "intuitive"
+        ],
+        "type": "direct"
     },
     {
         "question": "Would you ever lie to achieve your goals?",
-        "target": "values"
+        "target": "values",
+        "focus": [
+            "truth",
+            "justice",
+            "intellectual honesty"
+        ],
+        "type": "moral_dilemma"
     },
     {
-        "question": "What is your biggest fear?",
-        "target": "dislikes"
+        "question": "What kind of behavior do you find most frustrating?",
+        "target": "dislikes",
+        "focus": [
+            "illogical thinking",
+            "careless reasoning",
+            "unsupported assumptions"
+        ],
+        "type": "direct"
     },
     {
         "question": "What makes someone a good leader?",
-        "target": "values"
+        "target": "values",
+        "focus": [
+            "justice",
+            "responsibility",
+            "rational thinking"
+        ],
+        "type": "direct"
     }
 ]

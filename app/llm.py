@@ -14,7 +14,10 @@ def ask_llm(system_prompt, user_message):
                 "role": "user",
                 "content": user_message
             }
-        ]
+        ],
+        options={
+            "num_predict": 100
+        }
     )
 
     return response["message"]["content"]
