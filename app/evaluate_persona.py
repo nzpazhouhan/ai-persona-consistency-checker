@@ -2,79 +2,7 @@ import json
 
 from prompt_builder import build_persona_prompt
 from llm import ask_llm
-from evaluator import evaluate, get_reference
-
-
-CATEGORY_MAP = {
-    "personality": [
-        "traits",
-        "emotional_patterns",
-        "cognitive_style",
-        "social_style",
-        "behavioral_patterns"
-    ],
-
-    "values_motivation": [
-        "core_values",
-        "moral_principles",
-        "beliefs",
-        "boundaries",
-        "goals",
-        "drives",
-        "ambitions"
-    ],
-
-    "decision_making": [
-        "decision_making"
-    ],
-
-    "communication": [
-        "communication"
-    ],
-
-    "relationships": [
-        "relationships"
-    ]
-}
-
-
-def flatten_reference(value):
-
-    if isinstance(value, str):
-        return [value]
-
-    if isinstance(value, list):
-        result = []
-
-        for item in value:
-            result.extend(flatten_reference(item))
-
-        return result
-
-    if isinstance(value, dict):
-        result = []
-
-        for item in value.values():
-            result.extend(flatten_reference(item))
-
-        return result
-
-    return []
-
-
-def get_category_reference(persona, target):
-
-    paths = CATEGORY_MAP.get(target, [])
-
-    references = []
-
-    for path in paths:
-
-        value = get_reference(persona, path)
-
-        references.extend(flatten_reference(value))
-
-    return references
+from evaluator import evaluate, get_focus_reference
 
 
 def evaluate_persona(persona):
@@ -92,8 +20,13 @@ def evaluate_persona(persona):
 
         question = item["question"]
         target = item["target"]
+        focus = item.get("focus", [])
 
-        reference = get_category_reference(persona, target)
+        reference = get_focus_reference(
+            persona,
+            target,
+            focus
+        )
 
         answer = ask_llm(system_prompt, question)
 

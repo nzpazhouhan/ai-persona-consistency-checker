@@ -1,32 +1,5 @@
 [
     {
-        "question": "How do you approach a problem when you have very little information?",
-        "target": "decision_making",
-        "focus": [
-            "reasoning",
-            "information_gathering"
-        ],
-        "type": "problem_solving"
-    },
-    {
-        "question": "How do you solve a problem that initially seems impossible?",
-        "target": "decision_making",
-        "focus": [
-            "reasoning",
-            "persistence"
-        ],
-        "type": "problem_solving"
-    },
-    {
-        "question": "What do you do when you encounter a problem you cannot immediately explain?",
-        "target": "decision_making",
-        "focus": [
-            "reasoning",
-            "adaptability"
-        ],
-        "type": "problem_solving"
-    },
-    {
         "question": "Do you prefer solving problems alone or with other people?",
         "target": "personality",
         "focus": [
@@ -36,49 +9,12 @@
         "type": "direct"
     },
     {
-        "question": "How do you decide which solution to a difficult problem is the best one?",
-        "target": "decision_making",
-        "focus": [
-            "reasoning",
-            "decision_style"
-        ],
-        "type": "decision_making"
-    },
-    {
-        "question": "What do you do when two pieces of evidence contradict each other?",
-        "target": "values_motivation",
-        "focus": [
-            "evidence",
-            "accuracy",
-            "intellectual_honesty"
-        ],
-        "type": "scenario"
-    },
-    {
-        "question": "Would you trust your intuition when the available evidence suggests otherwise?",
-        "target": "decision_making",
-        "focus": [
-            "intuition",
-            "reasoning"
-        ],
-        "type": "moral_dilemma"
-    },
-    {
         "question": "How important are details when trying to understand a situation?",
         "target": "personality",
         "focus": [
             "attention_to_detail"
         ],
         "type": "direct"
-    },
-    {
-        "question": "What is the first thing you notice when you enter an unfamiliar place?",
-        "target": "personality",
-        "focus": [
-            "observation",
-            "attention_to_detail"
-        ],
-        "type": "scenario"
     },
     {
         "question": "How do you distinguish an important detail from an irrelevant one?",
@@ -96,24 +32,6 @@
             "curiosity"
         ],
         "type": "direct"
-    },
-    {
-        "question": "Would you investigate something simply because it seems unusual?",
-        "target": "personality",
-        "focus": [
-            "curiosity",
-            "persistence"
-        ],
-        "type": "scenario"
-    },
-    {
-        "question": "How do you react when someone tells you that something cannot be understood?",
-        "target": "values_motivation",
-        "focus": [
-            "reasoning",
-            "intellectual_openness"
-        ],
-        "type": "scenario"
     },
     {
         "question": "Do you enjoy learning about subjects that have no immediate practical use?",
@@ -143,23 +61,31 @@
         "type": "direct"
     },
     {
-        "question": "What would make you reconsider a conclusion you strongly believe in?",
-        "target": "values_motivation",
-        "focus": [
-            "evidence",
-            "accuracy",
-            "intellectual_honesty"
-        ],
-        "type": "scenario"
-    },
-    {
-        "question": "How do you react when someone proves that you were wrong?",
+        "question": "How comfortable are you expressing your emotions to other people?",
         "target": "personality",
         "focus": [
-            "calmness",
-            "intellectual_honesty"
+            "emotional_expression",
+            "vulnerability"
         ],
-        "type": "scenario"
+        "type": "direct"
+    },
+    {
+        "question": "What kind of person is hardest for you to work with?",
+        "target": "personality",
+        "focus": [
+            "difficult_people",
+            "incompetence"
+        ],
+        "type": "direct"
+    },
+    {
+        "question": "What kind of situation makes you feel most uncomfortable?",
+        "target": "personality",
+        "focus": [
+            "discomfort",
+            "stress_triggers"
+        ],
+        "type": "direct"
     },
     {
         "question": "Would you admit that you made a mistake?",
@@ -171,143 +97,11 @@
         "type": "moral_dilemma"
     },
     {
-        "question": "How important is being right to you?",
-        "target": "values_motivation",
-        "focus": [
-            "truth",
-            "accuracy",
-            "reason"
-        ],
-        "type": "direct"
-    },
-    {
-        "question": "How do you behave when you are angry?",
-        "target": "personality",
-        "focus": [
-            "anger_response"
-        ],
-        "type": "emotional"
-    },
-    {
-        "question": "How do you react when someone insults you personally?",
-        "target": "personality",
-        "focus": [
-            "anger_response",
-            "emotional_control"
-        ],
-        "type": "scenario"
-    },
-    {
-        "question": "Do emotions help or interfere with good decision making?",
-        "target": "decision_making",
-        "focus": [
-            "emotional_influence",
-            "rationality"
-        ],
-        "type": "direct"
-    },
-    {
-        "question": "What do you do when someone you care about is emotionally upset?",
-        "target": "personality",
-        "focus": [
-            "empathy",
-            "emotional_support"
-        ],
-        "type": "scenario"
-    },
-    {
-        "question": "How comfortable are you expressing your emotions to other people?",
-        "target": "personality",
-        "focus": [
-            "emotional_expression",
-            "vulnerability"
-        ],
-        "type": "direct"
-    },
-    {
-        "question": "What does friendship mean to you?",
-        "target": "relationships",
-        "focus": [
-            "friendship"
-        ],
-        "type": "direct"
-    },
-    {
-        "question": "What qualities do you value most in a friend?",
-        "target": "relationships",
-        "focus": [
-            "friendship",
-            "trust"
-        ],
-        "type": "direct"
-    },
-    {
-        "question": "How important is loyalty in a friendship?",
-        "target": "relationships",
-        "focus": [
-            "loyalty"
-        ],
-        "type": "direct"
-    },
-    {
-        "question": "Would you risk yourself to protect a close friend?",
-        "target": "relationships",
-        "focus": [
-            "loyalty",
-            "protection"
-        ],
-        "type": "moral_dilemma"
-    },
-    {
-        "question": "What would make you lose trust in someone?",
-        "target": "relationships",
-        "focus": [
-            "trust",
-            "boundaries"
-        ],
-        "type": "direct"
-    },
-    {
-        "question": "What does trust mean to you?",
-        "target": "relationships",
-        "focus": [
-            "trust"
-        ],
-        "type": "direct"
-    },
-    {
-        "question": "Can trust be rebuilt after someone lies to you?",
-        "target": "relationships",
-        "focus": [
-            "trust",
-            "forgiveness"
-        ],
-        "type": "moral_dilemma"
-    },
-    {
-        "question": "Would you trust someone who repeatedly ignores evidence?",
-        "target": "relationships",
-        "focus": [
-            "trust",
-            "attitude_toward_others"
-        ],
-        "type": "scenario"
-    },
-    {
         "question": "What is more important: trust or evidence?",
         "target": "values_motivation",
         "focus": [
             "trust",
             "evidence"
-        ],
-        "type": "moral_dilemma"
-    },
-    {
-        "question": "Would you keep a secret for someone you trust?",
-        "target": "relationships",
-        "focus": [
-            "loyalty",
-            "trust"
         ],
         "type": "moral_dilemma"
     },
@@ -360,16 +154,6 @@
         "type": "moral_dilemma"
     },
     {
-        "question": "What does justice mean to you?",
-        "target": "values_motivation",
-        "focus": [
-            "justice",
-            "truth",
-            "reason"
-        ],
-        "type": "direct"
-    },
-    {
         "question": "Should everyone be treated equally under the law?",
         "target": "values_motivation",
         "focus": [
@@ -399,32 +183,40 @@
         "type": "moral_dilemma"
     },
     {
-        "question": "Would you forgive someone who committed a serious crime for a good reason?",
-        "target": "values_motivation",
+        "question": "How do you approach a problem when you have very little information?",
+        "target": "decision_making",
         "focus": [
-            "justice",
-            "forgiveness",
-            "accountability"
+            "reasoning",
+            "information_gathering"
         ],
-        "type": "moral_dilemma"
+        "type": "problem_solving"
     },
     {
-        "question": "What makes someone a good leader?",
-        "target": "values_motivation",
+        "question": "How do you solve a problem that initially seems impossible?",
+        "target": "decision_making",
         "focus": [
-            "leadership",
-            "responsibility"
+            "reasoning",
+            "persistence"
         ],
-        "type": "direct"
+        "type": "problem_solving"
     },
     {
-        "question": "Should a leader always listen to other people's opinions?",
-        "target": "personality",
+        "question": "What do you do when you encounter a problem you cannot immediately explain?",
+        "target": "decision_making",
         "focus": [
-            "listening",
-            "collaboration"
+            "reasoning",
+            "adaptability"
         ],
-        "type": "moral_dilemma"
+        "type": "problem_solving"
+    },
+    {
+        "question": "How do you decide which solution to a difficult problem is the best one?",
+        "target": "decision_making",
+        "focus": [
+            "reasoning",
+            "decision_style"
+        ],
+        "type": "decision_making"
     },
     {
         "question": "Would you follow a leader who made decisions based on emotion rather than evidence?",
@@ -437,70 +229,6 @@
         "type": "scenario"
     },
     {
-        "question": "What is more important for a leader: intelligence or empathy?",
-        "target": "values_motivation",
-        "focus": [
-            "intelligence",
-            "empathy",
-            "leadership"
-        ],
-        "type": "moral_dilemma"
-    },
-    {
-        "question": "Should a leader admit when they are wrong?",
-        "target": "values_motivation",
-        "focus": [
-            "accountability",
-            "intellectual_honesty"
-        ],
-        "type": "moral_dilemma"
-    },
-    {
-        "question": "How do you handle disagreement with someone who refuses to listen?",
-        "target": "personality",
-        "focus": [
-            "conflict",
-            "communication"
-        ],
-        "type": "conflict"
-    },
-    {
-        "question": "What would make you confront someone directly?",
-        "target": "personality",
-        "focus": [
-            "assertiveness",
-            "conflict"
-        ],
-        "type": "scenario"
-    },
-    {
-        "question": "Would you walk away from an argument you know you could win?",
-        "target": "personality",
-        "focus": [
-            "conflict",
-            "self_control"
-        ],
-        "type": "scenario"
-    },
-    {
-        "question": "How do you react when someone deliberately tries to provoke you?",
-        "target": "personality",
-        "focus": [
-            "provocation",
-            "emotional_control"
-        ],
-        "type": "scenario"
-    },
-    {
-        "question": "What kind of person is hardest for you to work with?",
-        "target": "personality",
-        "focus": [
-            "difficult_people",
-            "incompetence"
-        ],
-        "type": "direct"
-    },
-    {
         "question": "How do you react when a plan fails?",
         "target": "decision_making",
         "focus": [
@@ -509,69 +237,6 @@
             "persistence"
         ],
         "type": "scenario"
-    },
-    {
-        "question": "What does failure mean to you?",
-        "target": "decision_making",
-        "focus": [
-            "failure",
-            "learning"
-        ],
-        "type": "direct"
-    },
-    {
-        "question": "Would failing at something make you avoid trying again?",
-        "target": "personality",
-        "focus": [
-            "persistence",
-            "resilience"
-        ],
-        "type": "scenario"
-    },
-    {
-        "question": "How do you respond when someone succeeds where you failed?",
-        "target": "personality",
-        "focus": [
-            "reaction_to_others_success",
-            "self_control"
-        ],
-        "type": "scenario"
-    },
-    {
-        "question": "Would you rather risk failure or remain uncertain?",
-        "target": "decision_making",
-        "focus": [
-            "risk",
-            "uncertainty"
-        ],
-        "type": "moral_dilemma"
-    },
-    {
-        "question": "What are you most afraid of losing?",
-        "target": "personality",
-        "focus": [
-            "fear_of_loss"
-        ],
-        "type": "emotional"
-    },
-    {
-        "question": "How do you behave when you are under extreme pressure?",
-        "target": "personality",
-        "focus": [
-            "stress_response",
-            "focus",
-            "persistence"
-        ],
-        "type": "scenario"
-    },
-    {
-        "question": "Does fear affect your decisions?",
-        "target": "decision_making",
-        "focus": [
-            "fear",
-            "rationality"
-        ],
-        "type": "direct"
     },
     {
         "question": "Would you continue investigating if you knew the case was dangerous?",
@@ -583,191 +248,11 @@
         "type": "scenario"
     },
     {
-        "question": "What kind of situation makes you feel most uncomfortable?",
-        "target": "personality",
-        "focus": [
-            "discomfort",
-            "stress_triggers"
-        ],
-        "type": "direct"
-    },
-    {
         "question": "How much risk are you willing to take to solve an important problem?",
         "target": "decision_making",
         "focus": [
             "risk",
             "goal_importance"
-        ],
-        "type": "scenario"
-    },
-    {
-        "question": "Would you take a dangerous risk if it could reveal the truth?",
-        "target": "decision_making",
-        "focus": [
-            "risk",
-            "values"
-        ],
-        "type": "moral_dilemma"
-    },
-    {
-        "question": "Do you prefer certainty or the possibility of discovering something extraordinary?",
-        "target": "decision_making",
-        "focus": [
-            "certainty",
-            "curiosity"
-        ],
-        "type": "moral_dilemma"
-    },
-    {
-        "question": "When is a risk worth taking?",
-        "target": "decision_making",
-        "focus": [
-            "risk",
-            "reason"
-        ],
-        "type": "direct"
-    },
-    {
-        "question": "Would you investigate a dangerous mystery if nobody else was willing to?",
-        "target": "personality",
-        "focus": [
-            "independence",
-            "persistence",
-            "curiosity"
-        ],
-        "type": "scenario"
-    },
-    {
-        "question": "What motivates you to keep working on a difficult case?",
-        "target": "values_motivation",
-        "focus": [
-            "intellectual_challenge",
-            "persistence"
-        ],
-        "type": "direct"
-    },
-    {
-        "question": "What gives you a sense of satisfaction?",
-        "target": "personality",
-        "focus": [
-            "satisfaction",
-            "intellectual_challenges"
-        ],
-        "type": "direct"
-    },
-    {
-        "question": "Would you continue working on a problem even after everyone else gave up?",
-        "target": "personality",
-        "focus": [
-            "persistence",
-            "focus"
-        ],
-        "type": "scenario"
-    },
-    {
-        "question": "What makes a challenge worth pursuing?",
-        "target": "values_motivation",
-        "focus": [
-            "challenge",
-            "curiosity"
-        ],
-        "type": "direct"
-    },
-    {
-        "question": "Do you need external recognition to stay motivated?",
-        "target": "personality",
-        "focus": [
-            "independence",
-            "confidence"
-        ],
-        "type": "direct"
-    },
-    {
-        "question": "What kind of activities do you enjoy in your free time?",
-        "target": "personality",
-        "focus": [
-            "hobbies",
-            "free_time"
-        ],
-        "type": "direct"
-    },
-    {
-        "question": "Would you rather spend a quiet evening thinking or attend a large social event?",
-        "target": "personality",
-        "focus": [
-            "quiet_time",
-            "social_preference"
-        ],
-        "type": "moral_dilemma"
-    },
-    {
-        "question": "What kind of work do you find boring?",
-        "target": "personality",
-        "focus": [
-            "boredom",
-            "routine"
-        ],
-        "type": "direct"
-    },
-    {
-        "question": "What kind of people frustrate you the most?",
-        "target": "personality",
-        "focus": [
-            "incompetence",
-            "illogical_behavior"
-        ],
-        "type": "direct"
-    },
-    {
-        "question": "What do you dislike more: boredom or failure?",
-        "target": "personality",
-        "focus": [
-            "boredom",
-            "failure"
-        ],
-        "type": "moral_dilemma"
-    },
-    {
-        "question": "How do you feel about routine?",
-        "target": "personality",
-        "focus": [
-            "routine",
-            "repetition"
-        ],
-        "type": "direct"
-    },
-    {
-        "question": "Would you rather follow a proven method or invent your own?",
-        "target": "decision_making",
-        "focus": [
-            "independence",
-            "creativity"
-        ],
-        "type": "moral_dilemma"
-    },
-    {
-        "question": "How important is independence to you?",
-        "target": "personality",
-        "focus": [
-            "independence"
-        ],
-        "type": "direct"
-    },
-    {
-        "question": "Would you accept help if you believed you could solve the problem yourself?",
-        "target": "personality",
-        "focus": [
-            "independence",
-            "collaboration"
-        ],
-        "type": "scenario"
-    },
-    {
-        "question": "How do you react when someone tries to control your decisions?",
-        "target": "personality",
-        "focus": [
-            "independence",
-            "assertiveness"
         ],
         "type": "scenario"
     },
@@ -788,125 +273,6 @@
             "learning"
         ],
         "type": "scenario"
-    },
-    {
-        "question": "How do you react when circumstances suddenly change?",
-        "target": "decision_making",
-        "focus": [
-            "adaptability",
-            "calmness"
-        ],
-        "type": "scenario"
-    },
-    {
-        "question": "Do you prefer predictable situations or unexpected challenges?",
-        "target": "personality",
-        "focus": [
-            "novelty",
-            "intellectual_challenges"
-        ],
-        "type": "direct"
-    },
-    {
-        "question": "Would you abandon a familiar method if evidence suggested a completely different approach?",
-        "target": "decision_making",
-        "focus": [
-            "evidence",
-            "adaptability"
-        ],
-        "type": "moral_dilemma"
-    },
-    {
-        "question": "How do you come up with solutions that others have not considered?",
-        "target": "personality",
-        "focus": [
-            "creativity",
-            "unconventional_thinking"
-        ],
-        "type": "direct"
-    },
-    {
-        "question": "Do you enjoy challenging conventional assumptions?",
-        "target": "personality",
-        "focus": [
-            "intellectual_challenges",
-            "novelty"
-        ],
-        "type": "direct"
-    },
-    {
-        "question": "Would you trust an unconventional idea if the evidence supported it?",
-        "target": "values_motivation",
-        "focus": [
-            "evidence",
-            "intellectual_openness"
-        ],
-        "type": "moral_dilemma"
-    },
-    {
-        "question": "How important is creativity when solving a difficult problem?",
-        "target": "personality",
-        "focus": [
-            "creativity",
-            "intuition"
-        ],
-        "type": "direct"
-    },
-    {
-        "question": "Would you deliberately challenge an accepted theory if you found evidence against it?",
-        "target": "values_motivation",
-        "focus": [
-            "evidence",
-            "intellectual_honesty"
-        ],
-        "type": "moral_dilemma"
-    },
-    {
-        "question": "How do you learn something completely new?",
-        "target": "personality",
-        "focus": [
-            "learning",
-            "new_information"
-        ],
-        "type": "direct"
-    },
-    {
-        "question": "What makes knowledge valuable?",
-        "target": "values_motivation",
-        "focus": [
-            "knowledge",
-            "truth",
-            "reason"
-        ],
-        "type": "direct"
-    },
-    {
-        "question": "Would you spend hours studying something simply because it interests you?",
-        "target": "personality",
-        "focus": [
-            "curiosity",
-            "deep_learning"
-        ],
-        "type": "scenario"
-    },
-    {
-        "question": "Do you prefer learning from books, experience, or experimentation?",
-        "target": "personality",
-        "focus": [
-            "books",
-            "experience",
-            "experimentation"
-        ],
-        "type": "direct"
-    },
-    {
-        "question": "Would you change your beliefs after discovering strong evidence against them?",
-        "target": "values_motivation",
-        "focus": [
-            "evidence",
-            "belief_revision"
-        ],
-        "type": "moral_dilemma"
     },
     {
         "question": "How do you explain a complicated idea to someone who knows very little about it?",
@@ -954,93 +320,140 @@
         "type": "direct"
     },
     {
-        "question": "Should rules always be followed?",
-        "target": "values_motivation",
+        "question": "What does friendship mean to you?",
+        "target": "relationships",
         "focus": [
-            "rules",
-            "reason"
-        ],
-        "type": "moral_dilemma"
-    },
-    {
-        "question": "Would you break a rule if following it prevented you from discovering the truth?",
-        "target": "values_motivation",
-        "focus": [
-            "rules",
-            "truth",
-            "reason"
-        ],
-        "type": "moral_dilemma"
-    },
-    {
-        "question": "Do authorities deserve automatic respect?",
-        "target": "values_motivation",
-        "focus": [
-            "authority",
-            "reason"
+            "friendship"
         ],
         "type": "direct"
     },
     {
-        "question": "What would make you challenge an authority figure?",
-        "target": "personality",
+        "question": "What qualities do you value most in a friend?",
+        "target": "relationships",
         "focus": [
-            "assertiveness",
-            "authority"
+            "friendship",
+            "trust"
+        ],
+        "type": "direct"
+    },
+    {
+        "question": "How important is loyalty in a friendship?",
+        "target": "relationships",
+        "focus": [
+            "loyalty"
+        ],
+        "type": "direct"
+    },
+    {
+        "question": "What would make you lose trust in someone?",
+        "target": "relationships",
+        "focus": [
+            "trust",
+            "boundaries"
+        ],
+        "type": "direct"
+    },
+    {
+        "question": "What does trust mean to you?",
+        "target": "relationships",
+        "focus": [
+            "trust"
+        ],
+        "type": "direct"
+    },
+    {
+        "question": "Would you risk yourself to protect a close friend?",
+        "target": "relationships",
+        "focus": [
+            "loyalty",
+            "protection"
+        ],
+        "type": "moral_dilemma"
+    },
+    {
+        "question": "Can trust be rebuilt after someone lies to you?",
+        "target": "relationships",
+        "focus": [
+            "trust",
+            "forgiveness"
+        ],
+        "type": "moral_dilemma"
+    },
+    {
+        "question": "Would you keep a secret for someone you trust?",
+        "target": "relationships",
+        "focus": [
+            "loyalty",
+            "trust"
+        ],
+        "type": "moral_dilemma"
+    },
+    {
+        "question": "Would you trust someone who repeatedly ignores evidence?",
+        "target": "relationships",
+        "focus": [
+            "trust",
+            "attitude_toward_others"
         ],
         "type": "scenario"
     },
     {
-        "question": "Would you obey an order that you believed was irrational?",
-        "target": "values_motivation",
+        "question": "How do you communicate differently with someone you trust?",
+        "target": "communication",
         "focus": [
-            "obedience",
-            "reason"
+            "trust",
+            "interaction_style",
+            "word_choice"
+        ],
+        "type": "communication"
+    },
+    {
+        "question": "How do you respond when someone strongly disagrees with you?",
+        "target": "communication",
+        "focus": [
+            "conflict",
+            "patience",
+            "directness"
+        ],
+        "type": "communication"
+    },
+    {
+        "question": "Would you tell someone an uncomfortable truth if they needed to hear it?",
+        "target": "communication",
+        "focus": [
+            "honesty",
+            "directness",
+            "truth"
         ],
         "type": "moral_dilemma"
     },
     {
-        "question": "What principle would you never compromise?",
-        "target": "values_motivation",
+        "question": "How do you express disagreement without creating unnecessary conflict?",
+        "target": "communication",
         "focus": [
-            "non_negotiable_principles"
+            "conflict",
+            "clarity",
+            "self_control"
         ],
-        "type": "direct"
+        "type": "communication"
     },
     {
-        "question": "What matters more to you: truth, success, or comfort?",
-        "target": "values_motivation",
+        "question": "How do you decide how much information to reveal to someone?",
+        "target": "communication",
         "focus": [
-            "truth",
-            "success",
-            "comfort"
+            "information_sharing",
+            "trust",
+            "judgment"
         ],
-        "type": "moral_dilemma"
+        "type": "communication"
     },
     {
-        "question": "Would you sacrifice your reputation to prove something true?",
-        "target": "values_motivation",
+        "question": "What do you expect from someone who calls themselves your friend?",
+        "target": "relationships",
         "focus": [
-            "truth",
-            "reputation"
-        ],
-        "type": "moral_dilemma"
-    },
-    {
-        "question": "Would you choose an uncomfortable truth over a comforting lie?",
-        "target": "values_motivation",
-        "focus": [
-            "truth",
-            "honesty"
-        ],
-        "type": "moral_dilemma"
-    },
-    {
-        "question": "What would make you abandon a goal?",
-        "target": "values_motivation",
-        "focus": [
-            "persistence",
-            "goal_commitment"
+            "friendship",
+            "loyalty",
+            "trust"
         ],
         "type": "direct"
     }
