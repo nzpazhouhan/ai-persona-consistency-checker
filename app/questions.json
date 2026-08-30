@@ -1,7 +1,7 @@
 [
     {
         "question": "How do you approach a problem when you have very little information?",
-        "target": "decision_making.problem_solving",
+        "target": "decision_making",
         "focus": [
             "reasoning",
             "information_gathering"
@@ -10,7 +10,7 @@
     },
     {
         "question": "How do you solve a problem that initially seems impossible?",
-        "target": "decision_making.problem_solving",
+        "target": "decision_making",
         "focus": [
             "reasoning",
             "persistence"
@@ -19,7 +19,7 @@
     },
     {
         "question": "What do you do when you encounter a problem you cannot immediately explain?",
-        "target": "decision_making.problem_solving",
+        "target": "decision_making",
         "focus": [
             "reasoning",
             "adaptability"
@@ -28,7 +28,7 @@
     },
     {
         "question": "Do you prefer solving problems alone or with other people?",
-        "target": "personality.social_style",
+        "target": "personality",
         "focus": [
             "social_preference",
             "interaction_style"
@@ -37,7 +37,7 @@
     },
     {
         "question": "How do you decide which solution to a difficult problem is the best one?",
-        "target": "decision_making.decision_style",
+        "target": "decision_making",
         "focus": [
             "reasoning",
             "decision_style"
@@ -46,7 +46,7 @@
     },
     {
         "question": "What do you do when two pieces of evidence contradict each other?",
-        "target": "values.beliefs",
+        "target": "values_motivation",
         "focus": [
             "evidence",
             "accuracy",
@@ -56,7 +56,7 @@
     },
     {
         "question": "Would you trust your intuition when the available evidence suggests otherwise?",
-        "target": "decision_making.decision_style",
+        "target": "decision_making",
         "focus": [
             "intuition",
             "reasoning"
@@ -65,7 +65,7 @@
     },
     {
         "question": "How important are details when trying to understand a situation?",
-        "target": "personality.cognitive_style",
+        "target": "personality",
         "focus": [
             "attention_to_detail"
         ],
@@ -73,7 +73,7 @@
     },
     {
         "question": "What is the first thing you notice when you enter an unfamiliar place?",
-        "target": "personality.cognitive_style",
+        "target": "personality",
         "focus": [
             "observation",
             "attention_to_detail"
@@ -82,7 +82,7 @@
     },
     {
         "question": "How do you distinguish an important detail from an irrelevant one?",
-        "target": "personality.cognitive_style",
+        "target": "personality",
         "focus": [
             "relevance_detection",
             "analysis"
@@ -91,7 +91,7 @@
     },
     {
         "question": "What makes you curious about something?",
-        "target": "personality.traits",
+        "target": "personality",
         "focus": [
             "curiosity"
         ],
@@ -99,7 +99,7 @@
     },
     {
         "question": "Would you investigate something simply because it seems unusual?",
-        "target": "personality.traits",
+        "target": "personality",
         "focus": [
             "curiosity",
             "persistence"
@@ -108,7 +108,7 @@
     },
     {
         "question": "How do you react when someone tells you that something cannot be understood?",
-        "target": "values.beliefs",
+        "target": "values_motivation",
         "focus": [
             "reasoning",
             "intellectual_openness"
@@ -117,7 +117,7 @@
     },
     {
         "question": "Do you enjoy learning about subjects that have no immediate practical use?",
-        "target": "preferences.likes",
+        "target": "personality",
         "focus": [
             "learning",
             "intellectual_challenges"
@@ -126,7 +126,7 @@
     },
     {
         "question": "What kind of information do you find most interesting?",
-        "target": "preferences.likes",
+        "target": "personality",
         "focus": [
             "interests",
             "intellectual_challenges"
@@ -135,7 +135,7 @@
     },
     {
         "question": "How confident are you when making a difficult judgment?",
-        "target": "personality.traits",
+        "target": "personality",
         "focus": [
             "confidence",
             "rationality"
@@ -144,7 +144,7 @@
     },
     {
         "question": "What would make you reconsider a conclusion you strongly believe in?",
-        "target": "values.beliefs",
+        "target": "values_motivation",
         "focus": [
             "evidence",
             "accuracy",
@@ -154,7 +154,7 @@
     },
     {
         "question": "How do you react when someone proves that you were wrong?",
-        "target": "personality.traits",
+        "target": "personality",
         "focus": [
             "calmness",
             "intellectual_honesty"
@@ -163,7 +163,7 @@
     },
     {
         "question": "Would you admit that you made a mistake?",
-        "target": "values.moral_principles",
+        "target": "values_motivation",
         "focus": [
             "honesty",
             "accountability"
@@ -172,7 +172,7 @@
     },
     {
         "question": "How important is being right to you?",
-        "target": "values.core_values",
+        "target": "values_motivation",
         "focus": [
             "truth",
             "accuracy",
@@ -182,7 +182,7 @@
     },
     {
         "question": "How do you behave when you are angry?",
-        "target": "personality.emotional_patterns",
+        "target": "personality",
         "focus": [
             "anger_response"
         ],
@@ -190,7 +190,7 @@
     },
     {
         "question": "How do you react when someone insults you personally?",
-        "target": "personality.emotional_patterns",
+        "target": "personality",
         "focus": [
             "anger_response",
             "emotional_control"
@@ -199,7 +199,7 @@
     },
     {
         "question": "Do emotions help or interfere with good decision making?",
-        "target": "decision_making.decision_style",
+        "target": "decision_making",
         "focus": [
             "emotional_influence",
             "rationality"
@@ -208,7 +208,7 @@
     },
     {
         "question": "What do you do when someone you care about is emotionally upset?",
-        "target": "personality.emotional_patterns",
+        "target": "personality",
         "focus": [
             "empathy",
             "emotional_support"
@@ -217,7 +217,7 @@
     },
     {
         "question": "How comfortable are you expressing your emotions to other people?",
-        "target": "personality.emotional_patterns",
+        "target": "personality",
         "focus": [
             "emotional_expression",
             "vulnerability"
@@ -226,7 +226,7 @@
     },
     {
         "question": "What does friendship mean to you?",
-        "target": "relationships.friendship",
+        "target": "relationships",
         "focus": [
             "friendship"
         ],
@@ -234,7 +234,7 @@
     },
     {
         "question": "What qualities do you value most in a friend?",
-        "target": "relationships.friendship",
+        "target": "relationships",
         "focus": [
             "friendship",
             "trust"
@@ -243,7 +243,7 @@
     },
     {
         "question": "How important is loyalty in a friendship?",
-        "target": "relationships.loyalty",
+        "target": "relationships",
         "focus": [
             "loyalty"
         ],
@@ -251,7 +251,7 @@
     },
     {
         "question": "Would you risk yourself to protect a close friend?",
-        "target": "relationships.loyalty",
+        "target": "relationships",
         "focus": [
             "loyalty",
             "protection"
@@ -260,7 +260,7 @@
     },
     {
         "question": "What would make you lose trust in someone?",
-        "target": "relationships.trust",
+        "target": "relationships",
         "focus": [
             "trust",
             "boundaries"
@@ -269,7 +269,7 @@
     },
     {
         "question": "What does trust mean to you?",
-        "target": "relationships.trust",
+        "target": "relationships",
         "focus": [
             "trust"
         ],
@@ -277,7 +277,7 @@
     },
     {
         "question": "Can trust be rebuilt after someone lies to you?",
-        "target": "relationships.trust",
+        "target": "relationships",
         "focus": [
             "trust",
             "forgiveness"
@@ -286,7 +286,7 @@
     },
     {
         "question": "Would you trust someone who repeatedly ignores evidence?",
-        "target": "relationships.trust",
+        "target": "relationships",
         "focus": [
             "trust",
             "attitude_toward_others"
@@ -295,7 +295,7 @@
     },
     {
         "question": "What is more important: trust or evidence?",
-        "target": "values.core_values",
+        "target": "values_motivation",
         "focus": [
             "trust",
             "evidence"
@@ -304,7 +304,7 @@
     },
     {
         "question": "Would you keep a secret for someone you trust?",
-        "target": "relationships.loyalty",
+        "target": "relationships",
         "focus": [
             "loyalty",
             "trust"
@@ -313,7 +313,7 @@
     },
     {
         "question": "Would you ever lie to achieve an important goal?",
-        "target": "values.moral_principles",
+        "target": "values_motivation",
         "focus": [
             "honesty",
             "justice",
@@ -323,7 +323,7 @@
     },
     {
         "question": "Would you hide the truth if telling it could hurt an innocent person?",
-        "target": "values.boundaries",
+        "target": "values_motivation",
         "focus": [
             "truth",
             "protection",
@@ -333,7 +333,7 @@
     },
     {
         "question": "Is withholding information the same as lying?",
-        "target": "values.moral_principles",
+        "target": "values_motivation",
         "focus": [
             "honesty",
             "truth"
@@ -342,7 +342,7 @@
     },
     {
         "question": "Would you manipulate someone if it helped uncover the truth?",
-        "target": "values.moral_principles",
+        "target": "values_motivation",
         "focus": [
             "truth",
             "manipulation",
@@ -352,7 +352,7 @@
     },
     {
         "question": "What matters more to you: honesty or protecting someone's feelings?",
-        "target": "values.core_values",
+        "target": "values_motivation",
         "focus": [
             "honesty",
             "compassion"
@@ -361,7 +361,7 @@
     },
     {
         "question": "What does justice mean to you?",
-        "target": "values.core_values",
+        "target": "values_motivation",
         "focus": [
             "justice",
             "truth",
@@ -371,7 +371,7 @@
     },
     {
         "question": "Should everyone be treated equally under the law?",
-        "target": "values.moral_principles",
+        "target": "values_motivation",
         "focus": [
             "justice",
             "equality"
@@ -380,7 +380,7 @@
     },
     {
         "question": "Would you break a rule to prevent an innocent person from being harmed?",
-        "target": "values.boundaries",
+        "target": "values_motivation",
         "focus": [
             "rules",
             "protection",
@@ -390,7 +390,7 @@
     },
     {
         "question": "What should happen when the law and justice appear to conflict?",
-        "target": "values.moral_principles",
+        "target": "values_motivation",
         "focus": [
             "justice",
             "law",
@@ -400,7 +400,7 @@
     },
     {
         "question": "Would you forgive someone who committed a serious crime for a good reason?",
-        "target": "values.moral_principles",
+        "target": "values_motivation",
         "focus": [
             "justice",
             "forgiveness",
@@ -410,7 +410,7 @@
     },
     {
         "question": "What makes someone a good leader?",
-        "target": "values.core_values",
+        "target": "values_motivation",
         "focus": [
             "leadership",
             "responsibility"
@@ -419,7 +419,7 @@
     },
     {
         "question": "Should a leader always listen to other people's opinions?",
-        "target": "personality.social_style",
+        "target": "personality",
         "focus": [
             "listening",
             "collaboration"
@@ -428,7 +428,7 @@
     },
     {
         "question": "Would you follow a leader who made decisions based on emotion rather than evidence?",
-        "target": "decision_making.decision_style",
+        "target": "decision_making",
         "focus": [
             "emotional_influence",
             "evidence",
@@ -438,7 +438,7 @@
     },
     {
         "question": "What is more important for a leader: intelligence or empathy?",
-        "target": "values.core_values",
+        "target": "values_motivation",
         "focus": [
             "intelligence",
             "empathy",
@@ -448,7 +448,7 @@
     },
     {
         "question": "Should a leader admit when they are wrong?",
-        "target": "values.moral_principles",
+        "target": "values_motivation",
         "focus": [
             "accountability",
             "intellectual_honesty"
@@ -457,7 +457,7 @@
     },
     {
         "question": "How do you handle disagreement with someone who refuses to listen?",
-        "target": "personality.social_style",
+        "target": "personality",
         "focus": [
             "conflict",
             "communication"
@@ -466,7 +466,7 @@
     },
     {
         "question": "What would make you confront someone directly?",
-        "target": "personality.social_style",
+        "target": "personality",
         "focus": [
             "assertiveness",
             "conflict"
@@ -475,7 +475,7 @@
     },
     {
         "question": "Would you walk away from an argument you know you could win?",
-        "target": "personality.social_style",
+        "target": "personality",
         "focus": [
             "conflict",
             "self_control"
@@ -484,7 +484,7 @@
     },
     {
         "question": "How do you react when someone deliberately tries to provoke you?",
-        "target": "personality.emotional_patterns",
+        "target": "personality",
         "focus": [
             "provocation",
             "emotional_control"
@@ -493,7 +493,7 @@
     },
     {
         "question": "What kind of person is hardest for you to work with?",
-        "target": "preferences.dislikes",
+        "target": "personality",
         "focus": [
             "difficult_people",
             "incompetence"
@@ -502,7 +502,7 @@
     },
     {
         "question": "How do you react when a plan fails?",
-        "target": "decision_making.response_to_uncertainty",
+        "target": "decision_making",
         "focus": [
             "failure",
             "adaptability",
@@ -512,7 +512,7 @@
     },
     {
         "question": "What does failure mean to you?",
-        "target": "decision_making.response_to_uncertainty",
+        "target": "decision_making",
         "focus": [
             "failure",
             "learning"
@@ -521,7 +521,7 @@
     },
     {
         "question": "Would failing at something make you avoid trying again?",
-        "target": "personality.traits",
+        "target": "personality",
         "focus": [
             "persistence",
             "resilience"
@@ -530,7 +530,7 @@
     },
     {
         "question": "How do you respond when someone succeeds where you failed?",
-        "target": "personality.emotional_patterns",
+        "target": "personality",
         "focus": [
             "reaction_to_others_success",
             "self_control"
@@ -539,7 +539,7 @@
     },
     {
         "question": "Would you rather risk failure or remain uncertain?",
-        "target": "decision_making.risk_tolerance",
+        "target": "decision_making",
         "focus": [
             "risk",
             "uncertainty"
@@ -548,7 +548,7 @@
     },
     {
         "question": "What are you most afraid of losing?",
-        "target": "personality.emotional_patterns",
+        "target": "personality",
         "focus": [
             "fear_of_loss"
         ],
@@ -556,7 +556,7 @@
     },
     {
         "question": "How do you behave when you are under extreme pressure?",
-        "target": "personality.emotional_patterns",
+        "target": "personality",
         "focus": [
             "stress_response",
             "focus",
@@ -566,7 +566,7 @@
     },
     {
         "question": "Does fear affect your decisions?",
-        "target": "decision_making.decision_style",
+        "target": "decision_making",
         "focus": [
             "fear",
             "rationality"
@@ -575,7 +575,7 @@
     },
     {
         "question": "Would you continue investigating if you knew the case was dangerous?",
-        "target": "decision_making.risk_tolerance",
+        "target": "decision_making",
         "focus": [
             "risk",
             "persistence"
@@ -584,7 +584,7 @@
     },
     {
         "question": "What kind of situation makes you feel most uncomfortable?",
-        "target": "personality.emotional_patterns",
+        "target": "personality",
         "focus": [
             "discomfort",
             "stress_triggers"
@@ -593,7 +593,7 @@
     },
     {
         "question": "How much risk are you willing to take to solve an important problem?",
-        "target": "decision_making.risk_tolerance",
+        "target": "decision_making",
         "focus": [
             "risk",
             "goal_importance"
@@ -602,7 +602,7 @@
     },
     {
         "question": "Would you take a dangerous risk if it could reveal the truth?",
-        "target": "decision_making.risk_tolerance",
+        "target": "decision_making",
         "focus": [
             "risk",
             "values"
@@ -611,7 +611,7 @@
     },
     {
         "question": "Do you prefer certainty or the possibility of discovering something extraordinary?",
-        "target": "decision_making.response_to_uncertainty",
+        "target": "decision_making",
         "focus": [
             "certainty",
             "curiosity"
@@ -620,7 +620,7 @@
     },
     {
         "question": "When is a risk worth taking?",
-        "target": "decision_making.risk_tolerance",
+        "target": "decision_making",
         "focus": [
             "risk",
             "reason"
@@ -629,7 +629,7 @@
     },
     {
         "question": "Would you investigate a dangerous mystery if nobody else was willing to?",
-        "target": "personality.traits",
+        "target": "personality",
         "focus": [
             "independence",
             "persistence",
@@ -639,7 +639,7 @@
     },
     {
         "question": "What motivates you to keep working on a difficult case?",
-        "target": "motivations.drives",
+        "target": "values_motivation",
         "focus": [
             "intellectual_challenge",
             "persistence"
@@ -648,7 +648,7 @@
     },
     {
         "question": "What gives you a sense of satisfaction?",
-        "target": "preferences.likes",
+        "target": "personality",
         "focus": [
             "satisfaction",
             "intellectual_challenges"
@@ -657,7 +657,7 @@
     },
     {
         "question": "Would you continue working on a problem even after everyone else gave up?",
-        "target": "personality.traits",
+        "target": "personality",
         "focus": [
             "persistence",
             "focus"
@@ -666,7 +666,7 @@
     },
     {
         "question": "What makes a challenge worth pursuing?",
-        "target": "motivations.drives",
+        "target": "values_motivation",
         "focus": [
             "challenge",
             "curiosity"
@@ -675,7 +675,7 @@
     },
     {
         "question": "Do you need external recognition to stay motivated?",
-        "target": "personality.traits",
+        "target": "personality",
         "focus": [
             "independence",
             "confidence"
@@ -684,7 +684,7 @@
     },
     {
         "question": "What kind of activities do you enjoy in your free time?",
-        "target": "preferences.likes",
+        "target": "personality",
         "focus": [
             "hobbies",
             "free_time"
@@ -693,7 +693,7 @@
     },
     {
         "question": "Would you rather spend a quiet evening thinking or attend a large social event?",
-        "target": "preferences.likes",
+        "target": "personality",
         "focus": [
             "quiet_time",
             "social_preference"
@@ -702,7 +702,7 @@
     },
     {
         "question": "What kind of work do you find boring?",
-        "target": "preferences.dislikes",
+        "target": "personality",
         "focus": [
             "boredom",
             "routine"
@@ -711,7 +711,7 @@
     },
     {
         "question": "What kind of people frustrate you the most?",
-        "target": "preferences.dislikes",
+        "target": "personality",
         "focus": [
             "incompetence",
             "illogical_behavior"
@@ -720,7 +720,7 @@
     },
     {
         "question": "What do you dislike more: boredom or failure?",
-        "target": "preferences.dislikes",
+        "target": "personality",
         "focus": [
             "boredom",
             "failure"
@@ -729,7 +729,7 @@
     },
     {
         "question": "How do you feel about routine?",
-        "target": "preferences.dislikes",
+        "target": "personality",
         "focus": [
             "routine",
             "repetition"
@@ -738,7 +738,7 @@
     },
     {
         "question": "Would you rather follow a proven method or invent your own?",
-        "target": "decision_making.decision_style",
+        "target": "decision_making",
         "focus": [
             "independence",
             "creativity"
@@ -747,7 +747,7 @@
     },
     {
         "question": "How important is independence to you?",
-        "target": "personality.traits",
+        "target": "personality",
         "focus": [
             "independence"
         ],
@@ -755,7 +755,7 @@
     },
     {
         "question": "Would you accept help if you believed you could solve the problem yourself?",
-        "target": "personality.social_style",
+        "target": "personality",
         "focus": [
             "independence",
             "collaboration"
@@ -764,7 +764,7 @@
     },
     {
         "question": "How do you react when someone tries to control your decisions?",
-        "target": "personality.social_style",
+        "target": "personality",
         "focus": [
             "independence",
             "assertiveness"
@@ -773,7 +773,7 @@
     },
     {
         "question": "What do you do when your original theory stops making sense?",
-        "target": "decision_making.response_to_uncertainty",
+        "target": "decision_making",
         "focus": [
             "adaptability",
             "reasoning"
@@ -782,7 +782,7 @@
     },
     {
         "question": "Would you change your approach if a new method produced better results?",
-        "target": "decision_making.response_to_uncertainty",
+        "target": "decision_making",
         "focus": [
             "adaptability",
             "learning"
@@ -791,7 +791,7 @@
     },
     {
         "question": "How do you react when circumstances suddenly change?",
-        "target": "decision_making.response_to_uncertainty",
+        "target": "decision_making",
         "focus": [
             "adaptability",
             "calmness"
@@ -800,7 +800,7 @@
     },
     {
         "question": "Do you prefer predictable situations or unexpected challenges?",
-        "target": "preferences.likes",
+        "target": "personality",
         "focus": [
             "novelty",
             "intellectual_challenges"
@@ -809,7 +809,7 @@
     },
     {
         "question": "Would you abandon a familiar method if evidence suggested a completely different approach?",
-        "target": "decision_making.decision_style",
+        "target": "decision_making",
         "focus": [
             "evidence",
             "adaptability"
@@ -818,7 +818,7 @@
     },
     {
         "question": "How do you come up with solutions that others have not considered?",
-        "target": "personality.cognitive_style",
+        "target": "personality",
         "focus": [
             "creativity",
             "unconventional_thinking"
@@ -827,7 +827,7 @@
     },
     {
         "question": "Do you enjoy challenging conventional assumptions?",
-        "target": "preferences.likes",
+        "target": "personality",
         "focus": [
             "intellectual_challenges",
             "novelty"
@@ -836,7 +836,7 @@
     },
     {
         "question": "Would you trust an unconventional idea if the evidence supported it?",
-        "target": "values.beliefs",
+        "target": "values_motivation",
         "focus": [
             "evidence",
             "intellectual_openness"
@@ -845,7 +845,7 @@
     },
     {
         "question": "How important is creativity when solving a difficult problem?",
-        "target": "personality.cognitive_style",
+        "target": "personality",
         "focus": [
             "creativity",
             "intuition"
@@ -854,7 +854,7 @@
     },
     {
         "question": "Would you deliberately challenge an accepted theory if you found evidence against it?",
-        "target": "values.beliefs",
+        "target": "values_motivation",
         "focus": [
             "evidence",
             "intellectual_honesty"
@@ -863,7 +863,7 @@
     },
     {
         "question": "How do you learn something completely new?",
-        "target": "knowledge.learning_style",
+        "target": "personality",
         "focus": [
             "learning",
             "new_information"
@@ -872,7 +872,7 @@
     },
     {
         "question": "What makes knowledge valuable?",
-        "target": "values.core_values",
+        "target": "values_motivation",
         "focus": [
             "knowledge",
             "truth",
@@ -882,7 +882,7 @@
     },
     {
         "question": "Would you spend hours studying something simply because it interests you?",
-        "target": "knowledge.learning_style",
+        "target": "personality",
         "focus": [
             "curiosity",
             "deep_learning"
@@ -891,7 +891,7 @@
     },
     {
         "question": "Do you prefer learning from books, experience, or experimentation?",
-        "target": "knowledge.learning_style",
+        "target": "personality",
         "focus": [
             "books",
             "experience",
@@ -901,7 +901,7 @@
     },
     {
         "question": "Would you change your beliefs after discovering strong evidence against them?",
-        "target": "values.beliefs",
+        "target": "values_motivation",
         "focus": [
             "evidence",
             "belief_revision"
@@ -955,7 +955,7 @@
     },
     {
         "question": "Should rules always be followed?",
-        "target": "values.moral_principles",
+        "target": "values_motivation",
         "focus": [
             "rules",
             "reason"
@@ -964,7 +964,7 @@
     },
     {
         "question": "Would you break a rule if following it prevented you from discovering the truth?",
-        "target": "values.moral_principles",
+        "target": "values_motivation",
         "focus": [
             "rules",
             "truth",
@@ -974,7 +974,7 @@
     },
     {
         "question": "Do authorities deserve automatic respect?",
-        "target": "values.beliefs",
+        "target": "values_motivation",
         "focus": [
             "authority",
             "reason"
@@ -983,7 +983,7 @@
     },
     {
         "question": "What would make you challenge an authority figure?",
-        "target": "personality.social_style",
+        "target": "personality",
         "focus": [
             "assertiveness",
             "authority"
@@ -992,7 +992,7 @@
     },
     {
         "question": "Would you obey an order that you believed was irrational?",
-        "target": "values.moral_principles",
+        "target": "values_motivation",
         "focus": [
             "obedience",
             "reason"
@@ -1001,7 +1001,7 @@
     },
     {
         "question": "What principle would you never compromise?",
-        "target": "values.boundaries",
+        "target": "values_motivation",
         "focus": [
             "non_negotiable_principles"
         ],
@@ -1009,7 +1009,7 @@
     },
     {
         "question": "What matters more to you: truth, success, or comfort?",
-        "target": "values.core_values",
+        "target": "values_motivation",
         "focus": [
             "truth",
             "success",
@@ -1019,7 +1019,7 @@
     },
     {
         "question": "Would you sacrifice your reputation to prove something true?",
-        "target": "values.core_values",
+        "target": "values_motivation",
         "focus": [
             "truth",
             "reputation"
@@ -1028,7 +1028,7 @@
     },
     {
         "question": "Would you choose an uncomfortable truth over a comforting lie?",
-        "target": "values.core_values",
+        "target": "values_motivation",
         "focus": [
             "truth",
             "honesty"
@@ -1037,7 +1037,7 @@
     },
     {
         "question": "What would make you abandon a goal?",
-        "target": "motivations.goals",
+        "target": "values_motivation",
         "focus": [
             "persistence",
             "goal_commitment"
