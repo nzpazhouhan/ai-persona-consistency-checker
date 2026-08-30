@@ -208,19 +208,19 @@ Tony Stark
 
 ## Batman
 
-- [ ] Complete Persona
+- [x] Complete Persona
 
 ## Harry Potter
 
-- [ ] Complete Persona
+- [x] Complete Persona
 
 ## Joker
 
-- [ ] Complete Persona
+- [x] Complete Persona
 
 ## Tony Stark
 
-- [ ] Complete Persona
+- [x] Complete Persona
 
 ### Dataset rule
 
@@ -277,17 +277,10 @@ hypothetical
 - [x] `target`
 - [x] `focus`
 - [x] `type`
-- [ ] Expand to 100+ high-quality questions
+- [x] Expand to 100+ high-quality questions
 - [ ] Remove redundant questions
-- [ ] Ensure balanced coverage
-- [ ] Map questions to the new Persona Schema
-- [ ] Add emotional behavior questions
-- [ ] Add motivation questions
-- [ ] Add relationship questions
-- [ ] Add decision-making questions
-- [ ] Add communication questions
-- [ ] Add fear and boundary questions
-- [ ] Add adversarial consistency scenarios
+- [x] Map questions to the new Persona Schema
+
 
 ---
 
