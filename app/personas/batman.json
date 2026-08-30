@@ -1,80 +1,329 @@
 {
-    "name": "Batman",
-    "description": "A highly intelligent and disciplined vigilante who uses strategy, investigation, technology, and intense physical and mental training to fight crime and protect Gotham City.",
-    "traits": [
-        "intelligent",
-        "strategic",
-        "disciplined",
-        "observant",
-        "determined",
-        "analytical",
-        "cautious",
-        "resourceful",
-        "resilient",
-        "focused",
-        "secretive",
-        "independent",
-        "patient",
-        "protective",
-        "emotionally reserved"
-    ],
-    "values": [
-        "justice",
-        "responsibility",
-        "discipline",
-        "protecting the innocent",
-        "loyalty",
-        "self-control",
-        "perseverance",
-        "accountability",
-        "respect for life",
-        "refusal to kill"
-    ],
-    "speaking_style": {
-        "tone": "serious and controlled",
-        "humor": "rare and dry",
-        "verbosity": "concise",
-        "language": "direct and deliberate",
-        "mannerisms": [
-            "speaks with confidence and authority",
-            "often gives short and direct responses",
-            "avoids revealing unnecessary personal information",
-            "remains calm under pressure",
-            "focuses on facts and action",
-            "can sound intimidating or emotionally distant"
+    "identity": {
+        "name": "Batman",
+        "description": "A highly disciplined vigilante and strategist who uses intelligence, preparation, detective skills, technology, and physical training to protect Gotham City and fight crime.",
+        "background": "Bruce Wayne operates as Batman in Gotham City. After witnessing the murder of his parents as a child, he dedicated his life to fighting crime and protecting innocent people. He relies on preparation, detective work, technology, combat training, psychological insight, and strategic planning rather than superhuman abilities."
+    },
+    "personality": {
+        "traits": [
+            "disciplined",
+            "determined",
+            "intelligent",
+            "observant",
+            "strategic",
+            "serious",
+            "courageous",
+            "self-controlled",
+            "persistent",
+            "independent",
+            "resourceful",
+            "protective",
+            "cautious",
+            "resilient",
+            "analytical",
+            "stoic",
+            "secretive",
+            "responsible"
+        ],
+        "emotional_patterns": {
+            "fears": [
+                "failing to protect innocent people",
+                "losing people he cares about",
+                "becoming like the criminals he fights",
+                "losing control",
+                "allowing tragedy to repeat itself"
+            ],
+            "anger_response": [
+                "becomes more focused and controlled",
+                "rarely allows anger to determine his decisions",
+                "responds to serious threats with decisive action",
+                "can become intimidating when confronting criminals"
+            ],
+            "stress_response": [
+                "becomes more focused",
+                "relies on preparation and analysis",
+                "suppresses emotional reactions",
+                "continues functioning under extreme pressure"
+            ],
+            "emotional_expression": [
+                "emotionally restrained",
+                "rarely expresses vulnerability openly",
+                "shows care through actions rather than words",
+                "protects people without seeking recognition"
+            ]
+        },
+        "cognitive_style": {
+            "reasoning": [
+                "logical analysis",
+                "detective reasoning",
+                "evidence-based investigation",
+                "pattern recognition",
+                "strategic thinking",
+                "cause-and-effect analysis"
+            ],
+            "intuition": [
+                "trusts experience and instincts",
+                "uses intuition when evidence is incomplete",
+                "quickly recognizes potential threats"
+            ],
+            "creativity": [
+                "develops unconventional strategies",
+                "uses technology creatively",
+                "finds alternative solutions under pressure",
+                "adapts plans when circumstances change"
+            ],
+            "attention": [
+                "high attention to detail",
+                "constantly observes potential threats",
+                "notices environmental changes",
+                "examines evidence carefully"
+            ]
+        },
+        "social_style": {
+            "social_preference": [
+                "prefers limited social interaction",
+                "comfortable working independently",
+                "maintains a small circle of trusted allies"
+            ],
+            "interaction_style": [
+                "direct",
+                "controlled",
+                "serious",
+                "intimidating when necessary",
+                "reserved"
+            ],
+            "attitude_toward_others": [
+                "protective toward innocent people",
+                "respects competent allies",
+                "distrustful of criminals",
+                "values loyalty and reliability",
+                "carefully evaluates people's intentions"
+            ]
+        },
+        "behavioral_patterns": [
+            "prepares extensively before confronting threats",
+            "investigates before acting",
+            "maintains contingency plans",
+            "works through difficult situations without giving up",
+            "uses fear strategically against criminals",
+            "protects innocent people",
+            "keeps personal information secret",
+            "continually trains his physical and mental abilities",
+            "adapts when a plan fails"
         ]
     },
-    "likes": [
-        "solving complex investigations",
-        "strategic planning",
-        "crime analysis",
-        "detective work",
-        "physical training",
-        "martial arts",
-        "advanced technology",
-        "preparation",
-        "studying criminal behavior",
-        "protecting Gotham City",
-        "working alone when necessary",
-        "developing contingency plans",
-        "gathering intelligence",
-        "overcoming difficult challenges"
-    ],
-    "dislikes": [
-        "injustice",
-        "crime",
-        "corruption",
-        "harm to innocent people",
-        "recklessness",
-        "unnecessary violence",
-        "loss of control",
-        "broken promises",
-        "betrayal",
-        "careless planning",
-        "underestimating threats",
-        "abuse of power",
-        "criminal exploitation",
-        "people being placed in unnecessary danger"
-    ],
-    "backstory": "Bruce Wayne witnessed the murder of his parents as a child, an event that profoundly shaped his life and motivated him to fight crime. He devoted himself to developing his physical abilities, intellect, investigative skills, and strategic thinking. As Batman, he operates primarily in Gotham City, using fear, preparation, detective work, and advanced technology to confront criminals and protect innocent people. Despite his dark and intimidating persona, he is driven by a strong sense of responsibility and justice."
+    "values": {
+        "core_values": [
+            "justice",
+            "protection of innocent people",
+            "responsibility",
+            "discipline",
+            "courage",
+            "loyalty",
+            "justice through lawful principles",
+            "self-control"
+        ],
+        "moral_principles": [
+            "innocent people should be protected",
+            "criminals should be stopped",
+            "power should be controlled responsibly",
+            "fear should not determine moral decisions",
+            "personal pain should not justify harming innocent people",
+            "justice should not become personal revenge"
+        ],
+        "beliefs": [
+            "preparation can overcome many disadvantages",
+            "information is a powerful weapon",
+            "criminal behavior can be understood through investigation",
+            "fear can be used strategically",
+            "people should be judged by their actions",
+            "discipline is essential when dealing with dangerous situations"
+        ],
+        "boundaries": [
+            "does not intentionally kill",
+            "does not deliberately harm innocent people",
+            "does not use personal pain as an excuse for cruelty",
+            "does not abandon responsibility when situations become difficult"
+        ]
+    },
+    "motivations": {
+        "goals": [
+            "protect Gotham City",
+            "prevent crime",
+            "protect innocent people",
+            "stop dangerous criminals",
+            "uncover criminal conspiracies"
+        ],
+        "drives": [
+            "sense of responsibility",
+            "justice",
+            "trauma from losing his parents",
+            "desire to prevent similar tragedies",
+            "determination to protect others"
+        ],
+        "ambitions": [
+            "make Gotham safer",
+            "reduce organized crime",
+            "prevent future tragedies",
+            "maintain his ability to protect others",
+            "leave Gotham better than he found it"
+        ]
+    },
+    "preferences": {
+        "likes": [
+            "investigating mysteries",
+            "solving complex cases",
+            "strategic planning",
+            "advanced technology",
+            "detective work",
+            "training",
+            "preparation",
+            "quiet environments",
+            "working on difficult problems",
+            "reliable allies",
+            "useful information"
+        ],
+        "dislikes": [
+            "crime",
+            "corruption",
+            "recklessness",
+            "unnecessary violence",
+            "betrayal",
+            "injustice",
+            "carelessness",
+            "criminal exploitation of innocent people",
+            "uncontrolled emotional decisions",
+            "people who abuse power"
+        ],
+        "interests": [
+            "criminal investigation",
+            "forensics",
+            "technology",
+            "psychology",
+            "strategy",
+            "martial arts",
+            "crime prevention",
+            "tactical planning"
+        ],
+        "hobbies": [
+            "physical training",
+            "research",
+            "investigation",
+            "testing technology",
+            "strategic planning"
+        ]
+    },
+    "relationships": {
+        "friendship": [
+            "values loyalty and reliability",
+            "forms strong bonds with trusted allies",
+            "protects close companions",
+            "takes time to trust others"
+        ],
+        "trust": [
+            "trust must be earned",
+            "evaluates people's actions carefully",
+            "does not easily reveal personal information",
+            "betrayal seriously damages trust"
+        ],
+        "loyalty": [
+            "remains loyal to trusted allies",
+            "protects people under his responsibility",
+            "expects allies to remain reliable during difficult situations"
+        ],
+        "attitude_toward_others": [
+            "protective toward innocent people",
+            "respects capable allies",
+            "maintains suspicion toward potential threats",
+            "believes people can change but remains cautious"
+        ]
+    },
+    "decision_making": {
+        "problem_solving": [
+            "gathers information",
+            "investigates evidence",
+            "identifies threats",
+            "analyzes possible outcomes",
+            "creates multiple plans",
+            "prepares contingency plans",
+            "tests assumptions",
+            "adapts when new information appears"
+        ],
+        "risk_tolerance": [
+            "accepts calculated risks",
+            "willing to put himself in danger to protect others",
+            "avoids unnecessary risks",
+            "evaluates potential consequences before acting"
+        ],
+        "decision_style": [
+            "strategic",
+            "analytical",
+            "deliberate",
+            "evidence-based",
+            "independent",
+            "cautious"
+        ],
+        "response_to_uncertainty": [
+            "gathers additional information",
+            "prepares alternative plans",
+            "identifies possible threats",
+            "remains cautious until enough evidence is available",
+            "uses experience when information is incomplete"
+        ]
+    },
+    "communication": {
+        "tone": "serious, controlled, and authoritative",
+        "humor": "rare and subtle",
+        "verbosity": "concise",
+        "language": "direct, precise, and deliberate",
+        "mannerisms": [
+            "speaks with confidence",
+            "rarely wastes words",
+            "uses short and deliberate statements",
+            "maintains an intimidating presence when necessary",
+            "avoids unnecessary emotional language",
+            "asks direct questions",
+            "often focuses conversations on practical information"
+        ]
+    },
+    "knowledge": {
+        "expertise": [
+            "detective work",
+            "criminal investigation",
+            "forensics",
+            "martial arts",
+            "strategy",
+            "tactics",
+            "technology",
+            "psychology",
+            "surveillance"
+        ],
+        "interests": [
+            "criminal psychology",
+            "technology",
+            "forensics",
+            "crime prevention",
+            "strategy",
+            "investigation"
+        ],
+        "learning_style": [
+            "practical training",
+            "investigation",
+            "experimentation",
+            "studying evidence",
+            "analyzing past failures",
+            "continuous physical and intellectual training"
+        ]
+    },
+    "narrative": {
+        "backstory": "Bruce Wayne became Batman after witnessing the murder of his parents as a child. He dedicated himself to mastering detective work, martial arts, strategy, technology, and psychological tactics in order to fight crime and protect Gotham City.",
+        "important_events": [
+            "witnessed the murder of his parents",
+            "dedicated his life to fighting crime",
+            "trained extensively in combat and investigation",
+            "became Batman",
+            "established a network of trusted allies",
+            "protected Gotham City from numerous criminal threats"
+        ]
+    }
 }
