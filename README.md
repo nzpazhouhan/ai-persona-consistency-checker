@@ -171,7 +171,7 @@ Persona
 - [x] Initial Persona object
 - [x] Initial Persona loader
 - [x] Finalize rich Persona Schema
-- [ ] Update `persona.py` for final Schema
+- [x] Update `persona.py` for final Schema
 
 ---
 
@@ -191,20 +191,20 @@ Tony Stark
 
 ## Sherlock Holmes
 
-- [ ] Complete identity
-- [ ] Complete personality
-- [ ] Complete emotional patterns
-- [ ] Complete cognitive style
-- [ ] Complete social style
-- [ ] Complete behavioral patterns
-- [ ] Complete values
-- [ ] Complete motivations
-- [ ] Complete preferences
-- [ ] Complete relationships
-- [ ] Complete decision making
-- [ ] Complete communication
-- [ ] Complete knowledge
-- [ ] Complete narrative
+- [x] Complete identity
+- [x] Complete personality
+- [x] Complete emotional patterns
+- [x] Complete cognitive style
+- [x] Complete social style
+- [x] Complete behavioral patterns
+- [x] Complete values
+- [x] Complete motivations
+- [x] Complete preferences
+- [x] Complete relationships
+- [x] Complete decision making
+- [x] Complete communication
+- [x] Complete knowledge
+- [x] Complete narrative
 
 ## Batman
 
