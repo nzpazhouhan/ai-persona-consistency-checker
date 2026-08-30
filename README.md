@@ -170,7 +170,7 @@ Persona
 - [x] Initial Persona structure
 - [x] Initial Persona object
 - [x] Initial Persona loader
-- [ ] Finalize rich Persona Schema
+- [x] Finalize rich Persona Schema
 - [ ] Update `persona.py` for final Schema
 
 ---
