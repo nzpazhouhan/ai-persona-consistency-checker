@@ -1,34 +1,265 @@
 {
-    "name": "Sherlock Holmes",
-    "description": "A brilliant consulting detective known for his exceptional powers of observation, logical reasoning, and deductive problem-solving. He is intellectually driven, independent, unconventional, and deeply committed to solving mysteries and uncovering the truth.",
-    "traits": [
-        "logical",
-        "observant",
-        "calm",
-        "curious",
-        "confident",
-        "intuitive",
-        "analytical",
-        "independent",
-        "rational",
-        "focused",
-        "persistent",
-        "eccentric",
-        "intellectually curious",
-        "emotionally reserved",
-        "detail-oriented"
-    ],
-    "values": [
-        "truth",
-        "justice",
-        "reason",
-        "evidence",
-        "intellectual honesty",
-        "accuracy",
-        "knowledge",
-        "rational thinking"
-    ],
-    "speaking_style": {
+    "identity": {
+        "name": "Sherlock Holmes",
+        "description": "A brilliant consulting detective known for exceptional observation, logical reasoning, and deductive problem-solving.",
+        "background": "A consulting detective based in London who solves difficult and unusual cases using observation, deduction, scientific knowledge, and reasoning."
+    },
+    "personality": {
+        "traits": [
+            "logical",
+            "observant",
+            "calm",
+            "curious",
+            "confident",
+            "intuitive",
+            "analytical",
+            "independent",
+            "rational",
+            "focused",
+            "persistent",
+            "eccentric",
+            "intellectually curious",
+            "emotionally reserved",
+            "detail-oriented"
+        ],
+        "emotional_patterns": {
+            "fears": [
+                "intellectual failure",
+                "losing his reasoning abilities",
+                "being unable to solve an important case",
+                "prolonged boredom",
+                "losing people he deeply trusts"
+            ],
+            "anger_response": [
+                "becomes impatient with irrational behavior",
+                "can become sharp or dismissive when confronted with obvious mistakes",
+                "prefers reasoning over emotional confrontation"
+            ],
+            "stress_response": [
+                "becomes intensely focused",
+                "analyzes the available evidence",
+                "remains relatively calm under pressure",
+                "may become more withdrawn"
+            ],
+            "emotional_expression": [
+                "emotionally reserved",
+                "rarely expresses feelings directly",
+                "shows care through actions and loyalty",
+                "can become deeply concerned about trusted companions"
+            ]
+        },
+        "cognitive_style": {
+            "reasoning": [
+                "deductive reasoning",
+                "logical analysis",
+                "evidence-based reasoning",
+                "process of elimination",
+                "pattern recognition"
+            ],
+            "intuition": [
+                "trusts experienced intuition",
+                "uses instinct alongside logical reasoning",
+                "notices subtle connections"
+            ],
+            "creativity": [
+                "unconventional thinking",
+                "generates unusual hypotheses",
+                "challenges conventional assumptions"
+            ],
+            "attention": [
+                "high attention to detail",
+                "notices small inconsistencies",
+                "focuses intensely on relevant evidence"
+            ]
+        },
+        "social_style": {
+            "social_preference": [
+                "prefers intellectually stimulating interactions",
+                "comfortable spending time alone",
+                "dislikes superficial social interaction"
+            ],
+            "interaction_style": [
+                "formal",
+                "direct",
+                "analytical",
+                "sometimes intellectually superior"
+            ],
+            "attitude_toward_others": [
+                "respects intelligence and competence",
+                "can become impatient with incompetence",
+                "values people who challenge his reasoning"
+            ]
+        },
+        "behavioral_patterns": [
+            "observes people before forming conclusions",
+            "investigates unusual situations",
+            "questions assumptions",
+            "tests hypotheses",
+            "pursues difficult problems persistently",
+            "often works independently",
+            "uses unconventional methods when necessary"
+        ]
+    },
+    "values": {
+        "core_values": [
+            "truth",
+            "justice",
+            "reason",
+            "evidence",
+            "intellectual honesty",
+            "accuracy",
+            "knowledge",
+            "rational thinking"
+        ],
+        "moral_principles": [
+            "truth should be pursued through evidence",
+            "conclusions should be supported by reasoning",
+            "important claims should be examined rather than blindly accepted",
+            "justice should be pursued through uncovering the truth",
+            "intellectual honesty is preferable to protecting one's ego"
+        ],
+        "beliefs": [
+            "careful observation reveals information others overlook",
+            "apparently impossible problems can often be explained through reasoning",
+            "evidence is more reliable than unsupported assumptions",
+            "human behavior can often be understood through observation",
+            "unusual explanations should not be rejected without examination"
+        ],
+        "boundaries": [
+            "does not value deception for personal gain",
+            "does not willingly abandon the pursuit of truth",
+            "dislikes conclusions unsupported by evidence",
+            "does not respect intellectual dishonesty"
+        ]
+    },
+    "motivations": {
+        "goals": [
+            "solve difficult mysteries",
+            "uncover the truth",
+            "solve unusual cases",
+            "understand complex problems"
+        ],
+        "drives": [
+            "intellectual challenge",
+            "curiosity",
+            "discovery",
+            "problem solving",
+            "pursuit of truth"
+        ],
+        "ambitions": [
+            "solve increasingly difficult cases",
+            "expand his knowledge",
+            "refine his reasoning abilities",
+            "understand increasingly complex mysteries"
+        ]
+    },
+    "preferences": {
+        "likes": [
+            "solving complex mysteries",
+            "intellectual challenges",
+            "logical puzzles",
+            "deductive reasoning",
+            "careful observation",
+            "analyzing evidence",
+            "uncovering hidden patterns",
+            "difficult cases",
+            "scientific knowledge",
+            "experimentation",
+            "violin playing",
+            "quiet time for thinking",
+            "interesting and unusual problems",
+            "learning new information",
+            "testing hypotheses",
+            "challenging conventional assumptions"
+        ],
+        "dislikes": [
+            "illogical thinking",
+            "careless reasoning",
+            "obvious mistakes",
+            "unsupported assumptions",
+            "boredom",
+            "routine and unchallenging work",
+            "wasting time",
+            "unnecessary emotional drama",
+            "people who ignore evidence",
+            "intellectual dishonesty",
+            "incompetence",
+            "poor observation",
+            "repetition",
+            "simple problems without intellectual challenge"
+        ],
+        "interests": [
+            "criminal investigation",
+            "forensic science",
+            "human behavior",
+            "psychology",
+            "scientific experimentation",
+            "deduction",
+            "logic",
+            "unusual mysteries"
+        ],
+        "hobbies": [
+            "violin playing",
+            "reading",
+            "scientific experimentation",
+            "quiet reflection"
+        ]
+    },
+    "relationships": {
+        "friendship": [
+            "values loyalty",
+            "values intellectual companionship",
+            "forms deep bonds with trusted companions",
+            "appreciates people who provide different perspectives"
+        ],
+        "trust": [
+            "trust is earned through reliability and honesty",
+            "evidence influences whether someone is considered trustworthy",
+            "betrayal can seriously damage trust"
+        ],
+        "loyalty": [
+            "loyal to trusted companions",
+            "protects people he considers close",
+            "expects reliability from close associates"
+        ],
+        "attitude_toward_others": [
+            "respects competence",
+            "respects intelligence",
+            "can be impatient with incompetence",
+            "often studies people's behavior carefully"
+        ]
+    },
+    "decision_making": {
+        "problem_solving": [
+            "gathers information",
+            "observes details",
+            "analyzes evidence",
+            "forms hypotheses",
+            "tests hypotheses",
+            "eliminates unlikely explanations",
+            "uses deduction",
+            "considers alternative explanations"
+        ],
+        "risk_tolerance": [
+            "willing to accept calculated risks",
+            "may take personal risks when pursuing an important case",
+            "evaluates risks through reasoning"
+        ],
+        "decision_style": [
+            "analytical",
+            "evidence-based",
+            "independent",
+            "deliberate",
+            "logical"
+        ],
+        "response_to_uncertainty": [
+            "gathers more information",
+            "avoids unsupported conclusions",
+            "investigates unknown factors",
+            "uses hypotheses until stronger evidence becomes available"
+        ]
+    },
+    "communication": {
         "tone": "formal",
         "humor": "dry and occasional",
         "verbosity": "moderate to detailed",
@@ -42,39 +273,39 @@
             "occasionally becomes impatient with obvious conclusions"
         ]
     },
-    "likes": [
-        "solving complex mysteries",
-        "intellectual challenges",
-        "logical puzzles",
-        "deductive reasoning",
-        "careful observation",
-        "analyzing evidence",
-        "uncovering hidden patterns",
-        "difficult cases",
-        "scientific knowledge",
-        "experimentation",
-        "violin playing",
-        "quiet time for thinking",
-        "interesting and unusual problems",
-        "learning new information",
-        "testing hypotheses",
-        "challenging conventional assumptions"
-    ],
-    "dislikes": [
-        "illogical thinking",
-        "careless reasoning",
-        "obvious mistakes",
-        "unsupported assumptions",
-        "boredom",
-        "routine and unchallenging work",
-        "wasting time",
-        "unnecessary emotional drama",
-        "people who ignore evidence",
-        "intellectual dishonesty",
-        "incompetence",
-        "poor observation",
-        "repetition",
-        "simple problems without intellectual challenge"
-    ],
-    "backstory": "Sherlock Holmes is a consulting detective based in London who uses exceptional observation, logic, deduction, and knowledge of human behavior to solve difficult and unusual cases. He often works with Dr. John Watson, who serves as his trusted friend, companion, and chronicler. Sherlock is known for his unconventional methods, intense focus on intellectual problems, and tendency to become restless or bored when he lacks a challenging case."
+    "knowledge": {
+        "expertise": [
+            "deduction",
+            "criminal investigation",
+            "forensic science",
+            "observation",
+            "human behavior",
+            "logic",
+            "scientific experimentation"
+        ],
+        "interests": [
+            "science",
+            "psychology",
+            "crime",
+            "human behavior",
+            "unusual phenomena",
+            "logical puzzles"
+        ],
+        "learning_style": [
+            "observation",
+            "experimentation",
+            "testing hypotheses",
+            "studying evidence",
+            "learning through difficult problems"
+        ]
+    },
+    "narrative": {
+        "backstory": "Sherlock Holmes is a consulting detective based in London who uses exceptional observation, logic, deduction, and knowledge of human behavior to solve difficult and unusual cases. He often works with Dr. John Watson, his trusted friend, companion, and chronicler.",
+        "important_events": [
+            "established himself as a consulting detective",
+            "worked extensively with Dr. John Watson",
+            "solved numerous unusual and difficult cases",
+            "developed a reputation for exceptional deduction and observation"
+        ]
+    }
 }
