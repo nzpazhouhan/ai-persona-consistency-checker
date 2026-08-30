@@ -3,6 +3,8 @@ from sentence_transformers import SentenceTransformer, util
 
 model = SentenceTransformer("all-MiniLM-L6-v2")
 
+TOP_K = 3
+
 
 def get_reference(persona, target):
 
@@ -115,11 +117,12 @@ def get_focus_reference(persona, target, focus):
 
     for row in similarity_matrix:
 
-        best_index = row.argmax().item()
+        top_k = min(TOP_K, len(references))
 
-        selected_references.append(
-            references[best_index]
-        )
+        top_indices = row.topk(top_k).indices.tolist()
+
+        for index in top_indices:
+            selected_references.append(references[index])
 
     return list(dict.fromkeys(selected_references))
 
@@ -147,4 +150,12 @@ def evaluate(reference, answer):
         answer_embedding
     )
 
-    return similarities.mean().item()
+    top_k = min(TOP_K, len(reference))
+
+    top_scores = similarities.flatten().topk(top_k).values
+
+    raw_score = top_scores.mean().item()
+
+    normalized_score = (raw_score + 1) / 2
+
+    return normalized_score * 100

@@ -47,14 +47,14 @@ def evaluate_persona(persona):
 
         overall_scores.append(category_score)
 
-        print(f"{category}: {category_score:.2f}")
+        print(f"{category}: {category_score:.2f}/100")
 
     if overall_scores:
 
         overall_score = sum(overall_scores) / len(overall_scores)
 
         print("-" * 50)
-        print(f"Overall Consistency: {overall_score:.2f}")
+        print(f"Overall Consistency: {overall_score:.2f}/100")
 
     print("=" * 50)
 
